@@ -4,6 +4,7 @@ title: Creating A Simple Instagram Bot
 description: This tutorial will detail over how to create an Instagram bot to target and follow specific users.
 image: assets/images/instagram.jpg
 tags: instagram bot python tutorial
+comments: true
 ---
 
 In this blog post we'll be creating a very simple bot for Instagram, this post assumes a basic understanding and working installation of Python 3.6. By the end of this post, we will have a working Instagram Bot which will be able to target and follow users, in order to convert them into followers themselves.
