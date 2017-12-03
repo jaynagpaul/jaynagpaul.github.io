@@ -40,3 +40,4 @@ plugins:
   - jemoji
   - jekyll-seo-tag
   - jekyll-sitemap # Put sitemap last, to generate a sitemap for all posts
+  - jekyll-gist

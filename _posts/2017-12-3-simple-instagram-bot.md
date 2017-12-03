@@ -15,6 +15,7 @@ Let's first get everything setup.
 >>> cd instabot
 >>> pip install -U git+https://github.com/LevPasha/Instagram-API-python.git
 ```
+
 ## First Steps
 Now we'll import the module and ask for anything we need.
 ```python
@@ -30,6 +31,7 @@ def ask_for_info():
     # This does not validate the username or password, so make sure you enter in the right one!
     return username, password
 ```
+
 ## Login to Instagram
 Now we can use the username and password we just obtained, to login the bot. This is done by creating the InstagramAPI class, and sending the request to login to Instagram. This function may fail on two major cases:
 1. Incorrect Username or Password 
@@ -41,10 +43,18 @@ def login(username, password):
     api.login() # Send a login request
     return api
 ```
+
 # Targetting
-Now we have a logged in Instagram account, it's time to find the targets to follw
+Now we have a logged in Instagram account, it's time to find the targets to follow.
+```python
+def find_targets(tag):
+    """
+    Search for users who have posted a picture with tag, and return a list of user IDs.
+    """
+```
 
 ## Wrapping it up
+Time to bring it all together.
 ```python
 if __name__ == '__main__':
     username, password = ask_for_info()
@@ -53,3 +63,9 @@ if __name__ == '__main__':
     api = login(username, password)
     print('Login Successful!')
 ```
+
+You can get the full script here:
+{% gist 43fe6257a999522086283a41fc9a35b4 instabot.py %}
+
+## Credits
+- [LevPasha](https://github.com/LevPasha)

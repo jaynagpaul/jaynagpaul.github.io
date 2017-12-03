@@ -26,6 +26,7 @@ redirect_from: /tags/
 		</a>
 		{% endfor %}
 		<div style="text-align: center; display:block; max-width:800px; text-align:center; margin:0 auto;">
+		<h1>Tags</h1>
 		{% capture temptags %}
   			{% for tag in site.tags %}
     			{{ tag[1].size | plus: 1000 }}#{{ tag[0] }}#{{ tag[1].size }}
