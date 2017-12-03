@@ -4,9 +4,14 @@ subtitle: by Jay Nagpaul
 email: hi@jaynagpaul.com
 description: I build things that live on a server. Read about my latest interests here! 🖥️
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site
-author:
+url: "https://jaynagpaul.com" # the base hostname & protocol for your site
+author: Jay Nagpaul
 permalink: /:title
+
+# SEO
+twitter:
+  username: SpiesWithin
+logo: assets/images/favicon-large.png
 
 # homepage tiles
 tiles-source: posts # accepts "posts" or "pages"
@@ -32,3 +37,6 @@ sass:
 
 plugins:
   - jekyll-redirect-from
+  - jemoji
+  - jekyll-seo-tag
+  - jekyll-sitemap # Put sitemap last, to generate a sitemap for all posts
