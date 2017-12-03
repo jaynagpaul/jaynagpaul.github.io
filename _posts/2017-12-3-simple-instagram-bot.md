@@ -5,18 +5,26 @@ description: This tutorial will detail over how to create an Instagram bot to ta
 image: assets/images/instagram.jpg
 ---
 
-Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis.
-Praesent rutrum sem diam, vitae egestas enim auctor sit amet. Pellentesque leo mauris, consectetur id ipsum sit amet, fergiat.
-Pellentesque in mi eu massa lacinia malesuada et a elit. Donec urna ex, lacinia in purus ac, pretium pulvinar mauris.
-Curabitur sapien risus, commodo eget turpis at, elementum convallis elit. Pellentesque enim turpis, hendrerit.
+In this blog post we'll be creating a very simple bot for Instagram, this post assumes a basic understanding and working installation of Python 3.6
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis dapibus rutrum facilisis.
-Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Etiam tristique libero eu nibh porttitor fermentum.
-Nullam venenatis erat id vehicula viverra. Nunc ultrices eros ut ultricies condimentum.
-Mauris risus lacus, blandit sit amet venenatis non, bibendum vitae dolor. Nunc lorem mauris, fringilla in aliquam at, euismod in lectus.
-Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. In non lorem sit amet elit placerat maximus.
-Pellentesque aliquam maximus risus, vel sed vehicula.
+## Getting Started
+Let's first get everything setup.
+```shell
+>>> mkdir instabot
+>>> cd instabot
+>>> pip install -U git+https://github.com/LevPasha/Instagram-API-python.git
+```
+## First Steps
+Now we'll import the module and ask for anything we need.
+```python
+from InstagramAPI import InstagramAPI
 
-Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis.
-Praesent rutrum sem diam, vitae egestas enim auctor sit amet. Pellentesque leo mauris, consectetur id ipsum sit amet, fersapien risus, commodo eget turpis at, elementum convallis elit.
-Pellentesque enim turpis, hendrerit tristique lorem ipsum dolor.
+def ask_for_info():
+    """
+    Ask the user running this script for their Instagram username and password.
+    """
+    username = input('What\'s your Instagram Username?')
+    password = input('What\'s your Instagram Password?')
+    # This does not validate the username or password, so make sure you enter in the right one!
+    return username, password
+```
