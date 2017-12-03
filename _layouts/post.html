@@ -25,6 +25,7 @@
 		{% if page.image %}<span class="image main"><img src="{{ site.baseurl }}/{{ page.image }}" alt="" /></span>{% endif %}
 		<p>By {% if page.author %}{{page.author}}{% else %}{{site.author}}{% endif %} | {{page.date | date_to_string}}</p>
 		<p>{{ content }}</p>
+		{% include relatedposts.html %}
 		{% for tag in page.tags %}
 		<a href="/tags/{{tag}}" class="button special small">{{tag}}</a>
 		{% endfor %}

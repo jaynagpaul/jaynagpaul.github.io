@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<!--
+	Forty by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+
+{% include head.html %}
+
+<body>
+
+    {% include header.html %}
+    <!-- Main -->
+    <div id="main" class="alt">
+        <!-- One -->
+        <section id="one">
+            <div class="inner">
+                <h1>Tag: {{page.tag}}</h1>
+
+                    {% for post in site.tags[page.tag] %}
+                    <a href = "{{ post.url  | relative_url }}">
+                            <div class="box">
+                                <img src="{{post.image | relative_url}}" style="float: right; height: 200px; width: 200px;">
+                                <header class="major">
+                                    <h1>{{ post.title }}</h1>
+                                </header>
+                                {% if post.date %}<p>{{ post.date | date_to_string}}</p>{% endif %}
+                                <p>{{post.description}}</p>
+                            </div>
+                        </a>
+                    {% endfor %}
+            </div>
+        </section>
+    </div>
+    {% include footer.html %}
+
+</body>
+
+</html>
