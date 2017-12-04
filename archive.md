@@ -16,7 +16,6 @@ redirect_from: /tags/
 		{% for post in site.posts %}
 		<a href = "{{ post.url  | relative_url }}">
 			<div class="box">
-				<img src="{{post.image | relative_url}}" style="float: right; height: 200px; width: 200px;">
 				<header class="major">
 					<h1>{{ post.title }}</h1>
 				</header>
@@ -25,7 +24,7 @@ redirect_from: /tags/
 			</div>
 		</a>
 		{% endfor %}
-		<div style="text-align: center; display:block; max-width:800px; text-align:center; margin:0 auto;">
+		<div style="text-align: center; display:block; max-width:800px; margin:0 auto;">
 		<h1>Tags</h1>
 		{% capture temptags %}
   			{% for tag in site.tags %}

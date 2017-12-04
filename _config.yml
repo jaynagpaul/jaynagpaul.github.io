@@ -1,6 +1,6 @@
 # site settings
-title: Blog
-subtitle: by Jay Nagpaul
+title: Jay Nagpaul
+subtitle:
 email: hi@jaynagpaul.com
 description: I build things that live on a server, and you can read about my latest interests here!
 baseurl: "" # the subpath of your site, e.g. /blog

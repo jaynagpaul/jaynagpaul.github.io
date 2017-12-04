@@ -27,7 +27,7 @@
 		<p>{{ content }}</p>
 		{% include relatedposts.html %}
 		{% for tag in page.tags %}
-		<a href="/tags/{{tag}}" class="button special small">{{tag}}</a>
+		<a style="margin-bottom: 10px;" href="/tags/{{tag}}" class="button special small">{{tag}}</a>
 		{% endfor %}
 		{% if page.comments %}
 		<div id="disqus_thread"></div>
