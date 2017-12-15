@@ -7,4 +7,4 @@ image: null
 author: null
 ---
 
-Hey! While you're here, check out [talos]({{ site.github_url }}talos) and [instahelper](https://github.com/socialplanner/instahelper). Also check out some of my other posts 👇, if you want of course 👀
+Hey! While you're here, check out some of my other posts 👇, if you want of course 👀

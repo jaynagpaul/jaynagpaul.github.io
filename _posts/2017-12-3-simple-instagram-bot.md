@@ -60,7 +60,7 @@ def login(username, password):
     return api
 ```
 
-# Targetting
+# Targeting
 Now we have a logged in Instagram account, it's time to find the targets to follow. We'll search up people who have recently posted a picture using the hashtag(s) you provided before.
 ```python
 def find_targets(api, tag):

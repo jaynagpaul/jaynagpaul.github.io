@@ -1,5 +1,10 @@
 {
   "html.format.enable": false,
-  "editor.formatOnSave": false,
+  "[markdown]":{
+    "editor.formatOnSave": false
+  },
+  "[html]":{
+    "editor.formatOnSave": false
+  },
   "python.linting.mypyEnabled": false
 }
