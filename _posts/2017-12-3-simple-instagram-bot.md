@@ -141,8 +141,7 @@ if __name__ == '__main__':
     print('All Done!')
 ```
 
-Thanks for reading. If you have any more bot ideas you would like me to go over, comment them below. You can get the full script here:
-{% gist 43fe6257a999522086283a41fc9a35b4 instabot.py %}
+Thanks for reading. If you have any more bot ideas you would like me to go over, comment them below. You can get the full script [here](https://gist.github.com/jaynagpaul/43fe6257a999522086283a41fc9a35b4)
 
 ## Credits
 - [LevPasha](https://github.com/LevPasha) for writing the InstagramAPI wrapper
