@@ -67,6 +67,7 @@ Now you'll have to edit the config to fit your use case. You can use nano by run
     - Poloniex
     - Kraken
     - Bittrex
+    - Binance
     - Quadriga
     - Gemini
     - Bitfinex
