@@ -3,7 +3,7 @@ layout: page
 title: Archive
 landing-title: 'Archive'
 nav-menu: true
-description: Collection of all posts written.
+description: Collection of all thoughts and musings by Jay Nagpaul.
 image: null
 author: null
 redirect_from: /tags/

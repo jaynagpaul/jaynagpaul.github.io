@@ -42,7 +42,7 @@ TypeError: unsupported operand type(s) for -: 'str' and 'int'
 As you can see, this function is expecting for you to pass in an integer for it otherwise it will raise a type error. We can manually add the type annotation to help future consumers of this code, but being humans **and** programmers we often forget.
 
 ## Automating It
-Great, we now have a file named fibonacci.py in our folder fibonacci. Let's write a simple test for us to use.
+Great, we now have a file named fibonacci.py in our folder named fibonacci. Let's write a simple test for us to use.
 ```py
 # test.py
 from fibonacci import fibonacci as F

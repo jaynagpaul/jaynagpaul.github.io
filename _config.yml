@@ -10,7 +10,7 @@ permalink: /:title
 
 # SEO
 twitter:
-  username: SpiesWithin
+  username: jncoin
 logo: assets/images/favicon-large.png
 
 # homepage tiles
@@ -28,7 +28,8 @@ linkedin_url:
 pinterest_url:
 slack_url:
 medium_url: https://medium.com/@jaynagpaul/
-twitter_url: https://twitter.com/spieswithin/
+twitter_url: https://twitter.com/jncoin/
+coffee_url: https://buymeacoffee.com/jay
 
 # build settings
 markdown: kramdown
