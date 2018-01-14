@@ -41,12 +41,17 @@
 				{% if site.linkedin_url %}
 				<li><a href="{{ site.linkedin_url }}" class="icon alt fa-linkedin" target="_blank"><span class="label">LinkedIn</span></a></li>
 				{% endif %}
+				{% if site.newsletter_url %}
+				<li><a href="{{ site.newsletter_url }}">My Newsletter</a></li>
+				{% endif %}
 			</ul>
 			<ul class="copyright">
 				<li>&copy; {{ site.title }} {{ site.subtitle }}</li>
 				<li>Design: <a href="https://html5up.net" target="_blank">HTML5 UP</a></li>
 				<li>Jekyll integration: <a href="http://andrewbanchi.ch" target="_blank">Andrew Banchich</a></li>
-
+				{% if site.coffee_url %}
+				<li><style>.bmc-button img{box-shadow: none !important;border: none !important;vertical-align: middle !important;}.bmc-button{text-decoration: none !important;display:inline-block !important;padding:5px 10px !important;color:#FFFFFF !important;background-color:#000000 !important;border-radius: 3px !important;border: 1px solid transparent !important;font-size: 26px !important;-webkit-transition: 0.3s all linear !important;transition: 0.3s all linear !important;margin: 0 auto !important;font-family:"Cookie", cursive !important;}.bmc-button:hover, .bmc-button:active, .bmc-button:focus {-webkit-box-shadow: 0 4px 16px 0 rgba(190, 190, 190,.45) !important;text-decoration: none !important;box-shadow: 0 4px 16px 0 rgba(190, 190, 190,.45) !important;opacity: 0.85 !important;color:#FFFFFF !important;}</style><link href="https://fonts.googleapis.com/css?family=Cookie" rel="stylesheet"><a class="bmc-button" target="_blank" href="https://www.buymeacoffee.com/jay"><img src="https://www.buymeacoffee.com/assets/img/BMC-btn-logo.svg" alt=""><span style="margin-left:5px">Support Me!</span></a></li>
+				{% endif %}
 			</ul>
 		</div>
 	</footer>

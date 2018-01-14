@@ -30,6 +30,7 @@ slack_url:
 medium_url: https://medium.com/@jaynagpaul/
 twitter_url: https://twitter.com/jncoin/
 coffee_url: https://buymeacoffee.com/jay
+newsletter_url: http://eepurl.com/dhmX8L
 
 # build settings
 markdown: kramdown

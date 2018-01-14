@@ -12,9 +12,9 @@ In this blog post we'll be creating a very simple bot for Instagram, this post a
 ## Getting Started
 Let's first get everything setup.
 ```shell
->>> mkdir instabot
->>> cd instabot
->>> pip install -U git+https://github.com/LevPasha/Instagram-API-python
+$ mkdir instabot
+$ cd instabot
+$ pip install -U git+https://github.com/LevPasha/Instagram-API-python
 ```
 
 ## First Steps
