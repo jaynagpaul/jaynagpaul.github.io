@@ -136,3 +136,5 @@ Awesome! We now have a fully functional simulated crypto currency trading bot. I
 
 ## Foreword
 If you're looking for more advanced usage, check out the [repository](https://github.com/DeviaVir/zenbot). If you're looking to trade with real money, proceed with utter caution and don't forget about securing your server, database, and exchange account. I hope you found this article helpful and it helped you in your hodling endeavors.
+
+If you enjoyed this article, make sure to check out [Ledger](https://joinledger.com), a chat group dedicated to cryptocurrency with a focus on development.
