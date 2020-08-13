@@ -143,12 +143,13 @@ Now we have our database setup
 Lets create a path to view and a path to add job postings
 
 doing a simple if statement on the url inside the request response loop
-
+```javascript
  if (url == "/api/v1/jobs") {
 }
+```
 
 Then check if for count parameter inside the html query. And if it is, check if its higher than 100. Which is the max records i want to allow users to query at a time.
-
+```javascript
 let count = 10; // base  
 let request_count = search_params.get("count");
   if (request_count) {
@@ -160,6 +161,7 @@ let request_count = search_params.get("count");
       count = parseInt(request_count);
     }
   }
+```
 Query the database for job_title and name of the company by joining two of our tables on the company id. Since a company can have multiple job postings, and a job posting can have only one company, we keep them in separate tables.
 
 ```javascript
