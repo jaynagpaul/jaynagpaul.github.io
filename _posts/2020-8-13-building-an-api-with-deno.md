@@ -4,7 +4,7 @@ title: Building an API with Deno
 description: Step by step instructions on how to create an API server using Deno
 image: assets/images/deno.jpg
 tags: deno javascript
-comments: false
+comments: true
 noindex: true
 ---
 Install Deno
