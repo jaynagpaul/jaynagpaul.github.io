@@ -7,6 +7,13 @@ tags: deno javascript
 comments: true
 noindex: true
 ---
+
+## Introduction
+The following text contains a tutorial to create an API server using Deno. [Deno](https://deno.land) is a programming language designed by Ryan Dahl, the creator of Node.JS. By the end of this guide, you will have built a job-board API which can be plugged into a frontend!
+
+
+## Tutorial
+
 Install Deno
 
 ```
